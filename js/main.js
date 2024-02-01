@@ -3,7 +3,8 @@
 var gBallSize = 100
 
 function onBallClick(elBall) {
-    if (gBallSize >= 400) gBallSize = 50
+    var maxDiameter = 400
+    if (gBallSize >= maxDiameter) gBallSize = 100
     const color = getRandomColor()
     const size = getRandomInt(20, 60)
 
