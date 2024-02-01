@@ -2,10 +2,22 @@
     box-sizing: border-box;
 }
 
+
 body {
     background-color: black;
 }
 
+
 h1 {
     color: white;
+}
+
+
+.ball {
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgba(228, 145, 36, 0.986);
 }
